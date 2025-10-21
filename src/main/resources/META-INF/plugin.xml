@@ -1,0 +1,37 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>com.renemadsen.cderevival</id>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>CDE Revival Theme</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="rene@renemadsen.com" url="https://github.com/renemadsen">René Schultz Madsen</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+        <p>A theme that recreates the classic CDE / Motif aesthetic from the HP-UX / Solaris / AIX era.</p>
+        <p>This theme brings back the nostalgic look of the Common Desktop Environment with:</p>
+        <ul>
+            <li>Classic grey tones with beveled 3D effects</li>
+            <li>Blue and steel color accents</li>
+            <li>Subdued selection colors</li>
+            <li>Strong light/dark bevel edges for that authentic retro feel</li>
+        </ul>
+        <p><em>Inspired by CDE. No logos, no official affiliation.</em></p>
+    ]]></description>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <!-- Extension points defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.renemadsen.cderevival" path="/CDE_Revival_Theme.theme.json"/>
+    </extensions>
+</idea-plugin>
