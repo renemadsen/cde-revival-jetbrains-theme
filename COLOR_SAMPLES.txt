@@ -1,0 +1,62 @@
+CDE REVIVAL THEME - COLOR SAMPLES
+==================================
+
+Quick Visual Reference (view in monospace font)
+
+BACKGROUND COLORS
+─────────────────
+Editor Background:    ░░░░░  #C7CBD6  rgb(199, 203, 214)
+Main Background:      ▒▒▒▒▒  #AEB2C3  rgb(174, 178, 195)
+Secondary Background: ▓▓▓▓▓  #9CA0B1  rgb(156, 160, 177)
+Hover Background:     ░░▒▒░  #B9BDC9  rgb(185, 189, 201)
+
+FOREGROUND & TEXT
+─────────────────
+Primary Text:         █████  #000000  rgb(0, 0, 0)
+Disabled Text:        ▒▒▒▒▒  #6B6F7A  rgb(107, 111, 122)
+Info Text:            ▓▓▓▓▓  #3C4C5C  rgb(60, 76, 92)
+
+SELECTION COLORS
+────────────────
+Active Selection:     ████░  #627C9C  rgb(98, 124, 156)  ← Blue accent
+Selection Text:       ░░░░░  #FFFFFF  rgb(255, 255, 255)
+Inactive Selection:   ▒▒▒░░  #8E9AAB  rgb(142, 154, 171)
+
+BORDERS & ACCENTS
+─────────────────
+Primary Border:       ████▓  #5C6574  rgb(92, 101, 116)  ← Dark steel
+Light Bevel:          ░░░░░  #FFFFFF  rgb(255, 255, 255)
+Focus Border:         ████░  #627C9C  rgb(98, 124, 156)  ← Blue
+
+SYNTAX HIGHLIGHTING
+───────────────────
+Keywords:             ███▓▓  #3C4C5C  rgb(60, 76, 92)    [bold]
+Strings:              ██░░░  #2C6C3C  rgb(44, 108, 60)   [green]
+Numbers:              ░██░░  #5C3C7C  rgb(92, 60, 124)   [purple]
+Comments:             ▒▒▒▒▒  #5C6574  rgb(92, 101, 116)  [italic]
+Functions:            ████░  #3C5C7C  rgb(60, 92, 124)   [blue]
+
+STATUS COLORS
+─────────────
+Error:                ██░░░  #8B0000  rgb(139, 0, 0)     [dark red]
+Warning:              ██▓░░  #8B7000  rgb(139, 112, 0)   [brown]
+Success:              ██░░░  #2C6C3C  rgb(44, 108, 60)   [green]
+
+DESIGN CHARACTERISTICS
+──────────────────────
+• All corners: arc = 0 (sharp, rectangular)
+• 3D bevel: Light top/left, dark bottom/right
+• Button gradients: #AEB2C3 → #9CA0B1
+• No transparency or blur effects
+• Subdued, non-jarring colors
+• Authentic CDE/Motif aesthetic
+
+COMPARE TO CDE ORIGINAL
+────────────────────────
+This theme faithfully recreates the look of:
+- CDE on HP-UX 11.x
+- CDE on Solaris 8/9/10
+- CDE on AIX 5.x/6.x
+- Motif 2.x applications
+
+For more details, see COLORS.md
